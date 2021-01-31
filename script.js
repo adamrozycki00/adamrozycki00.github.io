@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	var apiRoot = "http://localhost:8080/v1/task/";
+	var apiRoot = "https://calm-plains-45013.herokuapp.com/v1/task/";
 	var datatableRowTemplate = $("[data-datatable-row-template]").children()[0];
 	var tasksContainer = $("[data-tasks-container]");
 
