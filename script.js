@@ -72,7 +72,7 @@ $(document).ready(function() {
 				requestUrl +
 				"/?" +
 				$.param({
-					taskId: taskId
+					id: taskId
 				}),
 			method: "DELETE",
 			success: function() {
